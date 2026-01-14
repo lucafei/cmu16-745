@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Julia File",
+            "type": "shell",
+            "command": "/home/mini/.juliaup/bin/julia",
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always"
+            }
+        },
+        {
+            "label": "Start Julia REPL",
+            "type": "shell",
+            "command": "/home/mini/.juliaup/bin/julia",
+            "isBackground": true,
+            "presentation": {
+                "reveal": "always"
+            }
+        }
+    ]
+}

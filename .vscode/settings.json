@@ -1,0 +1,6 @@
+{
+    "julia.additionalArgs": [],
+    "editor.fontSize": 16,
+    "julia.enableTelemetry": true,
+    "julia.executablePath": "/home/mini/.juliaup/bin/julia"
+}
