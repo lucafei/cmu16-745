@@ -39,3 +39,4 @@ x_n+1 = x_n + h*f(x_n+1)
 
 rewrite as:
 f_d(x_n+1, x_n, u_n) = x_n + h*f(x_n+1) - x_n+1 = 0
+solve root-finding problem for x_n+1
